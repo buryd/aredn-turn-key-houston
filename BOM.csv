@@ -1,0 +1,26 @@
+Category,Item,Specification,Qty,Unit_USD,Extended_USD,Source,Price_basis,Notes
+Backbone radio,MikroTik LHG XL 5 ac US 4-pack,RBLHGG-5acD-XL4pack-US; 27 dBi; 5 GHz 802.11ac; 256 MB RAM,2,635.33,1270.66,ISP Supplies / WAV,Listed price 454.93 plus listed tariff 180.40 as of 12 Nov 2026,8 radios: 6 installed and 2 shelf spares. US-locked 5725-5835 MHz matches the channel plan. Reconfirm tariff before the PO.
+Indoor AREDN node,MikroTik hAP ac3,RBD53iG-5HacD2HnD; 256 MB RAM; image mikrotik_hap-ac3,4,109.00,436.00,MikroTik suggested price; buy Baltic Networks or ISP Supplies or Roc-Noc,Manufacturer suggested price 109,3 installed and 1 spare. Confirm street price on the PO.
+IP phone,Grandstream GRP2601P,2-line SIP; 802.3af PoE; SIP UDP,10,55.00,550.00,VoIP Supply or 888VoIP,Budget street price,9 installed (3 per site) and 1 spare. Confirm price on the PO.
+Phone system PC,Fanless mini PC,Intel N100 class; 16 GB RAM; 512 GB SSD,3,289.00,867.00,Amazon or CDW (Beelink-class),Budget street price,One FreePBX host per site. No Wi-Fi required.
+Mail and chat server,Raspberry Pi 5 8 GB kit,Official PSU; case; 256 GB SSD,7,165.00,1155.00,PiShop.us or CanaKit or Adafruit,Budget kit price,6 installed (Citadel and MeshChat at each site) and 1 spare.
+Phone switch,8-port Gigabit PoE switch,802.3af; about 65 W budget; TP-Link TL-SG108PE class,3,79.00,237.00,CDW or Amazon,Budget street price,Phones only. Radio power stays on the 24 V injectors in the LHG box.
+Power,Line-interactive UPS 1500 VA,CyberPower or APC; USB status optional,3,210.00,630.00,CDW or Amazon,Budget street price,Rides through the generator transfer. Plug into the generator circuit.
+Cabling,Outdoor shielded Cat6,500 ft spool; direct-burial or CMX; solid copper,3,149.00,447.00,TrueCable,Budget street price,One spool per site. Two radio runs plus service drops.
+Lightning,Ethernet surge protector,Ubiquiti ETH-SP-G2; Gigabit; PoE pass-through,6,19.00,114.00,Ubiquiti store or B&H,Budget street price,One per radio at the building entry; bond to the building ground.
+Grounding,Mast ground kit,#6 copper; clamp; ground rod only if the building ground is not usable,3,95.00,285.00,DX Engineering or local electrical supply,Budget,Licensed electrician bonds the EOC mast. Hospitals bond to building steel.
+Hospital mount,Non-penetrating roof mount and mast,SitePro class; ballast calculated by the structural letter,2,650.00,1300.00,Tessco or Talley,Budget,Warner Robins and Perry roofs. Do not penetrate the membrane unless facilities directs it.
+Hospital mast pipe,Galvanized mast; 1.5 in,Length to place the dish centerlines at the design AGL after roof height is measured,2,80.00,160.00,Local steel supplier,Budget,Cut to the measured remainder above the roof.
+EOC structure,60 ft bracket tower materials,Rohn 25G class; base; house bracket or guys; hardware,1,2400.00,2400.00,DX Engineering or 3Star Inc.,Allowance not a quote,Kathleen fire/EMA building is low. This line changes after the structural choice.
+EOC hardware,Bracket anchors and guy hardware,As required by the stamped design,1,350.00,350.00,Same tower vendor,Allowance,Zero this line if the stamp uses a house-bracket tower with no guys.
+Install consumables,UV ties; drip loops; labels; boots; tape,Lot for three sites,1,180.00,180.00,Local electrical supply,Budget,Label both ends of every cable with the node name.
+Aiming,Compass; inclinometer; binoculars,One project kit,1,120.00,120.00,Local or Amazon,Budget,Final aim is by AREDN SNR. Compass only gets the dish into the 7 degree beam.
+Spares,Spare 256 GB SSD,Boot images of FreePBX and the two Pi roles,3,25.00,75.00,Amazon,Budget,One imaged spare per role.
+Hardware total,All lines above,,1,10576.66,10576.66,See lines,,Sum of extended prices. Software licenses are zero.
+Professional,Structural letters,Roof load at two hospitals; tower at the EOC,1,1800.00,1800.00,Georgia PE,Allowance,Required by hospital facilities and the county building permit.
+Professional,EOC tower installation,Set; plumb; bond; dress cables,1,2200.00,2200.00,Local tower contractor,Allowance,County facilities may self-perform and drop this line.
+Professional,Hospital roof installation,Two sites; after-hours if the hospital requires it,2,1500.00,3000.00,Hospital-approved vendor,Allowance,1500 each site.
+Professional,Path survey,Optical or drone check of the three Fresnel corridors; tree heights at the pinch points,1,1200.00,1200.00,Local surveyor or the installing club,Allowance,Hold point before the tower PO. A clear corridor can shrink the EOC mast.
+Professional,Freight,Radios; tower steel; mounts,1,250.00,250.00,Vendors above,Allowance,ISP Supplies ships from College Station TX; West Chicago IL; Kalama WA.
+Contingency,8 percent of hardware,Covers tariff movement and street-price drift,1,846.13,846.13,Calculated,0.08 times 10576.66,Drop after firm quotes replace budget lines.
+Project total,Hardware plus professional plus contingency,,1,19872.79,19872.79,This bill of materials,Prices checked 12 Nov 2026,Firm quotes replace every allowance before the county encumbers funds.
