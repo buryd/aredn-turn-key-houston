@@ -6,5 +6,8 @@ The network carries on-site FreePBX voice (three phones per building), Citadel e
 
 - [Design](DESIGN.md) — paths, link budget, antenna heights, software, installation, and approvals
 - [Bill of materials](BOM.csv) — priced lines, sources, and the project total
+- [EOC antennas and mounting](EOC-antennas-and-mounting.md)
+- [Warner Robins antennas and mounting](Warner-Robins-antennas-and-mounting.md)
+- [Perry antennas and mounting](Perry-antennas-and-mounting.md)
 
 Prices were checked on 12 November 2026. Requote hardware allowances before a purchase order, and survey the Fresnel zone before ordering the EOC tower.
