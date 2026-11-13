@@ -7,6 +7,7 @@ The network carries on-site FreePBX voice (three phones per building), Citadel e
 - [Design](DESIGN.md) — paths, link budget, antenna heights, software, installation, and approvals
 - [Bill of materials](BOM.csv) — priced lines, sources, and the project total
 - [EOC antennas and mounting](EOC-antennas-and-mounting.md)
+- [EOC solar power system](EOC-Solar-Power-System.md)
 - [Warner Robins antennas and mounting](Warner-Robins-antennas-and-mounting.md)
 - [Perry antennas and mounting](Perry-antennas-and-mounting.md)
 

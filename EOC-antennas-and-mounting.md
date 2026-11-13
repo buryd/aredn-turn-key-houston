@@ -6,14 +6,14 @@ Use two MikroTik LHG XL 5 ac radios. The radio and the 27 dBi grid are one unit.
 
 ## Mounting structure
 
-The fire and emergency management building is too low for a roof mast. Use one 60 ft Rohn 25G-class house-bracket tower on the building. If the structural engineer will not accept a bracket, use a guyed 60 ft tower and keep the anchor allowance.
+The fire and emergency management building is too low for a roof mast. Use one 60 ft Rohn 25G-class house-bracket tower on the south side of the building, bracketed to the south wall. If the structural engineer will not accept a bracket, use a guyed 60 ft tower on that same south side and keep the anchor allowance.
 
 | Dish | Faces | True bearing | Compass if declination is 6.5° W | Center above ground |
 | --- | --- | --- | --- | --- |
 | Upper | Warner Robins | 27.4° | 33.9° | 60 ft |
 | Lower | Perry | 195.6° | 202.1° | 50 ft |
 
-The two shots are 168° apart, so one mast carries both dishes. Put the Warner Robins dish at the top and the Perry dish 10 ft below it. Place the tower where both bearings clear the hose tower, flagpole, and trees on the lot.
+The two shots are 168° apart, so one mast carries both dishes. Put the Warner Robins dish at the top, aimed 27.4°. From the south wall that shot looks north-northeast and clears the low roof. Put the Perry dish 10 ft below it, aimed 195.6°, looking south and away from the building. The survey still has to confirm the hose tower, flagpole, and trees are outside both beams.
 
 These heights clear bare earth with about 22 ft of spare toward Warner Robins and about 15 ft toward Perry. They do not include trees. Walk the pinch point near 32.5534, −83.6700 before ordering steel. Add a foot of antenna height for each foot of tree that stands in the Fresnel.
 
@@ -41,7 +41,7 @@ A path survey ($1,200), an aiming kit ($120), and freight ($250) are paid once f
 1. Get the Houston County building permit and the stamped letter for a 60 ft tower. Run the FAA Notice Criteria Tool first, and file Form 7460-1 if the tool requires it.
 2. Call Georgia 811 before any digging for a base, a ground rod, or a guy anchor.
 3. Have a licensed electrician bond the tower to the building grounding electrode system with #6 copper. Drive a new rod only when the engineer says the building ground cannot be used, and bond that rod to the building ground.
-4. Set the base and house bracket, stack the tower to 60 ft, and plumb it.
+4. Set the base on the south side and house-bracket the tower to the south wall. Stack the tower to 60 ft and plumb it. If the stamp requires guys, keep the anchors out of the Perry beam.
 5. Hang both dishes with the V arrow up. Leave the clamps snug. Upper dish toward Warner Robins at 60 ft, bearing 27.4°. Lower dish toward Perry at 50 ft, bearing 195.6°.
 6. Run shielded outdoor Cat6 in a drip loop, with the connector at the dish pointed down. Put one surge protector per dish at the building entry, on the outdoor side of the 24 V injector, on the same ground as the tower. Keep the injector indoors.
 7. Confirm declination with the NOAA calculator on the install day. A compass only has to land the dish inside the 7° beam. Aim on AREDN SNR with someone at the far end, then lock the clamps at the peak.

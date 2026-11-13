@@ -117,7 +117,7 @@ Confirm magnetic declination with the NOAA calculator for the install day. Centr
 
 How each site gets there:
 
-- **EOC.** The fire and emergency management building is a low structure. A roof mast will not reach 60 ft above ground. Budget a 60 ft Rohn 25G-class bracket tower on the building, or a guyed tower if the structural engineer rejects a bracket. Put the Warner Robins dish at the top and the Perry dish 10 ft below it. The two look almost opposite directions, so one mast is enough.
+- **EOC.** The fire and emergency management building is a low structure. A roof mast will not reach 60 ft above ground. Budget a 60 ft Rohn 25G-class bracket tower on the south side of the building, bracketed to the south wall, or a guyed tower on that same side if the structural engineer rejects a bracket. Put the Warner Robins dish at the top, aimed north-northeast over the roof, and the Perry dish 10 ft below it, aimed south. The two look almost opposite directions, so one mast is enough.
 - **Warner Robins hospital.** The building is multi-story and the ground is already the high end of every path. Measure the roof. A non-penetrating mount and a short mast make up the difference between the roof and 65 ft above ground. Put the Perry dish about 10 ft lower on the same mast. If the roof is already near 65 ft, use a short pole and keep the 10 ft vertical split.
 - **Perry hospital.** Same roof method, to 50 ft above ground for the EOC dish and 45 ft for the Warner Robins dish.
 
