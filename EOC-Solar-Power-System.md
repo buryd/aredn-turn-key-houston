@@ -6,11 +6,11 @@ The solar pack powers the two dish radios and the indoor hAP. FreePBX, the phone
 
 ## What the sun does
 
-Two Renogy 250 W panels, model RSP250DCT-US, are wired in series. Each has an open-circuit voltage of 22.35 V, so the string is about 45 V in standard sun and about 51 V on a cold morning. That is under the controller's 100 V limit. A 15 A breaker opens each leg of the string before the wires enter the cabinet.
+Two Renogy 100 W panels, model RSP100D-BK, are wired in series. The array is 200 W. Each panel's working voltage is 20.4 V, so the string is about 41 V while charging and about 49 V open-circuit. On a cold morning the open-circuit voltage is about 52 V. That is enough to start the 24 V controller, and it is under the controller's 100 V limit. One of these panels alone cannot charge this battery. A 15 A breaker opens each leg of the string before the wires enter the cabinet.
 
 The Victron SmartSolar MPPT 100/30, model SCC110030210, takes that string voltage and charges the battery. Set a user-defined 24 V lithium profile. Absorption is 28.4 V. Float is 27.0 V. Equalize is off. Temperature compensation is off.
 
-The battery is one LiTime 24 V 100 Ah LiFePO4. Nameplate energy is about 2,560 Wh. A 40 A fuse sits within 7 inches of the battery positive.
+The battery is one LiTime 24 V 60 Ah LiFePO4. Nameplate energy is about 1,536 Wh. A 40 A fuse sits within 7 inches of the battery positive.
 
 ## Why the radios see 24.0 V
 
@@ -24,13 +24,13 @@ The 24.0 V pair leaves the bottom of the cabinet and enters the building. Indoor
 
 Shielded Cat6 runs up the south-side tower. The upper dish, aimed at Warner Robins, is at 60 ft. The lower dish, aimed at Perry, is at 50 ft. The hAP plugs into the same 24 V rail on its 5.5/2 mm jack, center positive.
 
-The radios draw current the whole time they are powered. The site load is about 40 W, about 2 A at 24 V, whether or not anyone is talking. After the loss in the Orion, the battery supplies about 46 W.
+The radios draw current the whole time they are powered. Each dish draws about 0.33 A. The two dishes together are about 0.66 A, about 16 W, whether or not anyone is talking. After the loss in the Orion, the battery supplies about 18 W. The hAP is on the same rail and adds a few watts.
 
 ## Night and cloud
 
-While the sun is up, the array replaces a day's use. On a normal December day the 500 W of panels makes about 1,300 Wh, and the radios use about 1,100 Wh. The battery carries the hours the sun is down.
+While the sun is up, the array replaces a day's use. On a normal December day the 200 W of panels makes about 525 Wh, and the two radios take about 440 Wh from the battery. The battery carries the hours the sun is down.
 
-One 100 Ah battery holds about 2,000 Wh after an 80 percent discharge. At 46 W that is about 45 hours, a night plus a cloudy day. The battery's own switch opens if a cell falls too low. The Orion's low-voltage shutdown is 14 V, which is too low for this lithium battery, so the battery switch is what stops the discharge. Keep that threshold at or above 22.4 V, which is 2.8 V per cell.
+The reserve is three days for the two dishes. A 60 Ah battery holds that load for about 72 hours after converter loss when it is taken most of the way down. Stopped at 80 percent, the same battery is about 67 hours. The battery's own switch opens if a cell falls too low. The Orion's low-voltage shutdown is 14 V, which is too low for this lithium battery, so the battery switch is what stops the discharge. Keep that threshold at or above 22.4 V, which is 2.8 V per cell.
 
 ## Ground and heat
 
