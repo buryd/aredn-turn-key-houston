@@ -2,7 +2,7 @@
 
 Houston County Emergency Operations Center, 102 Chief Williams Drive, Kathleen, GA 31047.
 
-The solar pack powers the two dish radios and the indoor hAP. FreePBX, the phones, and both Pis stay on the generator outlet. The panels sit on the ground south of the tower. The tower is house-bracketed to the south wall. The cabinet is the shaded NEMA 3R box at the tower base. The mounting drawing is `EOC-Radios-Antennas-Solar.jpg`. The parts inside the cabinet are drawn in `NEMA-3R-Component-Mounting.jpg`. Prices and sources are in `Solar-Power-BOM.md`.
+The solar pack powers the two dish radios and the indoor hAP. FreePBX, the phones, and both Pis stay on the generator outlet. The panels sit on the ground south of the tower. The tower is house-bracketed to the south wall. The cabinet is the shaded NEMA 3R box at the tower base. The mounting drawing is `EOC-Radios-Antennas-Solar.jpg`. The parts inside the cabinet are drawn in `NEMA-3R-Component-Mounting.jpg`. Prices and sources are in `Solar-Power-BOM.md`. The same bill is a canvas table in `eoc-solar-bom.canvas.tsx`.
 
 ## What the sun does
 
