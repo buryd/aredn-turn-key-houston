@@ -6,11 +6,11 @@ The solar pack powers the two dish radios and the indoor hAP. FreePBX, the phone
 
 ## What the sun does
 
-Two Renogy 100 W panels, model RSP100D-BK, are wired in series. The array is 200 W. Each panel's working voltage is 20.4 V, so the string is about 41 V while charging and about 49 V open-circuit. On a cold morning the open-circuit voltage is about 52 V. That is enough to start the 24 V controller, and it is under the controller's 100 V limit. One of these panels alone cannot charge this battery. A 15 A breaker opens each leg of the string before the wires enter the cabinet.
+Two Renogy 100 W panels, model RSP100D-BK, are wired in series. The array is 200 W. Each panel's working voltage is 20.4 V, so the string is about 41 V while charging and about 49 V open-circuit. On a cold morning the open-circuit voltage is about 52 V. That is enough to start the 24 V controller, and it is under the controller's 75 V limit. One of these panels alone cannot charge this battery. A 15 A breaker opens each leg of the string before the wires enter the cabinet. The string current is about 5 A, so those breakers stay.
 
 The Victron SmartSolar MPPT 75/15, model SCC075015060R, takes that string voltage and charges the battery. It is a 15 A controller rated for 440 W on a 24 V battery, and it allows 75 V from the panels. Set a user-defined 24 V lithium profile. Absorption is 28.4 V. Float is 27.0 V. Equalize is off. Temperature compensation is off.
 
-The battery is one LiTime 24 V 60 Ah LiFePO4. Nameplate energy is about 1,536 Wh. A 40 A fuse sits within 7 inches of the battery positive.
+The battery is one LiTime 24 V 60 Ah LiFePO4. Nameplate energy is about 1,536 Wh. A 20 A fuse sits within 7 inches of the battery positive. Victron requires 20 A to 25 A for this controller. The battery leads are 10 AWG, which is the largest wire the 75/15 terminals accept, and they stay under 3 ft.
 
 ## Why the radios see 24.0 V
 
